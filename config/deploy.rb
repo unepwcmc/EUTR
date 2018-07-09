@@ -23,7 +23,7 @@ set :keep_releases, 5
 set :linked_files, %w{wp-activate.php wp-blog-header.php wp-comments-post.php wp-config.php wp-cron.php wp-links-opml.php wp-load.php wp-login.php wp-mail.php wp-settings.php wp-signup.php wp-trackback.php xmlrpc.php wp-content/index.php wp-content/themes/index.php index.php .htaccess}
 
 
-set :linked_dirs, fetch(:linked_dirs, []).push('wp-content/plugins','wp-content/uploads','wp-admin','wp-includes','wp-content/upgrade','wp-content/themes/twentyfifteen','wp-content/themes/twentysixteen','wp-content/themes/twentysixteen')
+set :linked_dirs, fetch(:linked_dirs, []).push('wp-content/plugins','wp-content/uploads','wp-admin','wp-includes','wp-content/upgrade','wp-content/themes/twentyfifteen','wp-content/themes/twentysixteen','wp-content/themes/twentyseventeen')
 
 
 # Default branch is :master
