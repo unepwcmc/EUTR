@@ -13,3 +13,7 @@ Run the command curl -s https://api.wordpress.org/secret-key/1.1/salt/
 Replace the default section of the wp-config.php file
 
 Restore a copy of the database to the remote server db server
+
+Restore a copy of the uploads folder
+
+Run cap production deploy.
