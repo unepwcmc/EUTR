@@ -26,6 +26,9 @@ set :linked_files, %w{wp-activate.php wp-blog-header.php wp-comments-post.php wp
 set :linked_dirs, fetch(:linked_dirs, []).push('wp-content/plugins','wp-content/uploads','wp-admin','wp-includes','wp-content/upgrade','wp-content/themes/twentyfifteen','wp-content/themes/twentysixteen','wp-content/themes/twentyseventeen')
 
 
+after "deploy:published", "link:crete"
+
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
